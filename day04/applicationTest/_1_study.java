@@ -9,8 +9,8 @@ public class _1_study {
             public void run() {
                 JFrame frame = new JFrame("HelloWorld GUI");
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                frame.setPreferredSize(new Dimension(400, 300));
-                JLabel label = new JLabel("Hello World!!",SwingConstants.CENTER);
+                frame.setPreferredSize(new Dimension(400, 300)); // 화면의 크기 조정
+                JLabel label = new JLabel("Hello World!!",SwingConstants.CENTER); // 텍스트를 가운데로
                 frame.getContentPane().add(label);
                 Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
                 frame.setLocation(dim.width/2-400/2,dim.height/2-300/2);
